@@ -23,7 +23,7 @@ public class UsuarioService {
     public Usuario guardar(Usuario usuario){
         return repo.save(usuario);
     }
-
+//hola panchito GIT
     public Usuario buscar(long id){
         return repo.findById(id).orElse(null);
     }
