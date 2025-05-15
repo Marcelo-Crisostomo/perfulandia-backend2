@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 
-//Entidad que se va a comportar como una tabla
+//Entidad que se va a comportar como una tabla,,,
 @Entity
 @Data
 @NoArgsConstructor
