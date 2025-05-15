@@ -1,11 +1,8 @@
 package com.perfulandia.usuarioservice.service;
-
 import com.perfulandia.usuarioservice.model.Usuario;
 import com.perfulandia.usuarioservice.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-
 
 @Service
 public class UsuarioService {
@@ -23,7 +20,6 @@ public class UsuarioService {
     public Usuario guardar(Usuario usuario){
         return repo.save(usuario);
     }
-//hola panchito GIT
     public Usuario buscar(long id){
         return repo.findById(id).orElse(null);
     }
